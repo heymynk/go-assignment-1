@@ -1,0 +1,17 @@
+Question 1. Polymorphism in Go [4 points]
+
+Go is not an object-oriented language but it is still possible to implement polymorphism and to define
+methods associated to types.
+
+You will find with this assignment, a set of Java classes representing a hierarchy of classes. You are
+asked to translate this program into Go. Your Go program must also implement polymorphism among
+all types of employees. It must also produce the same output.
+
+You must also adhere to the following guidelines:
+• All employees created in main function must be in an array of StaffMember type.
+• Java References should be replaced by Go pointers
+• You must use the constructor pattern in Go that consists in defining a NewThing(parameters...)
+
+function instead of the new Thing(parameters...) call to constructor used in Java
+• To replace Java inheritance, you must use type embedding
+• Polymorphism must be implemented using Go interfaces
